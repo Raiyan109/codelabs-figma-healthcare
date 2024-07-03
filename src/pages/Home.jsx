@@ -11,7 +11,7 @@ import WhoWeAre from '../components/WhoWeAre';
 const Home = () => {
     return (
         <div>
-            <div>
+            <div className='bg-[#d9effa] bg-hero-pattern px-36'>
                 <Navbar />
                 <Banner />
                 <Comprehensive />
