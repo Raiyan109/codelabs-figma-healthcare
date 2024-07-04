@@ -12,7 +12,7 @@
     }
 
     .section-paragraphs {
-        @apply text-sm text-primary max-w-lg leading-normal;
+        @apply text-sm text-primary/70 max-w-lg leading-normal;
     }
 
     .accent-button {
