@@ -4,7 +4,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const FirstAppointment = () => {
     return (
-        <div className="relative ">
+        <div className="relative my-10">
             <div
                 className="absolute inset-0 bg-gradient-to-r from-primary/95 to-secondary/70 rounded-[70px]"
             ></div>
