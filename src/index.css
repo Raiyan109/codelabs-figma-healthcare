@@ -19,3 +19,22 @@
         @apply py-3 px-6 rounded-full bg-accent flex items-center font-medium gap-2 text-sm;
     }
 }
+
+.slick-slide>div {
+    margin: 0 10px
+}
+
+.slick-dots li button:before {
+    background-color: #FFC637;
+    height: 10px;
+    width: 10px;
+    text-indent: -9999px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.slick-thumb {
+    color: yellow;
+    /* background-color: yellow; */
+}
