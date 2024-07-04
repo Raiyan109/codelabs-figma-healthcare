@@ -53,7 +53,7 @@ const Testimonial = () => {
                 <div className='mt-10'>
                     <Slider {...settings}>
                         {data.map((d) => (
-                            <div key={d.name} className="bg-offWhite p-5 flex flex-col gap-5 rounded-3xl space-y-2 h-56">
+                            <div key={d.name} className="bg-offWhite p-5 flex flex-col gap-5 rounded-3xl space-y-2 ">
                                 <h1 className='text-2xl font-semibold text-primary max-w-sm leading-tight'>{d.heading}</h1>
                                 <p className='text-sm text-primary font-light max-w-sm'>{d.paragraph}</p>
                                 <div className='flex items-center gap-3'>
