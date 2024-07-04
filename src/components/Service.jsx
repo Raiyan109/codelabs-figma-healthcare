@@ -5,7 +5,7 @@ import consultancy from '../assets/service-consultency.png'
 
 const Service = () => {
     return (
-        <div className="flex justify-center items-center py-20">
+        <div className="py-20">
             <div className="bg-offWhite grid grid-cols-1 md:grid-cols-2 gap-5 p-10 rounded-3xl">
                 <div className="space-y-5">
                     <div className='capsule w-24'>
